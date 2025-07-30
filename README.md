@@ -1,0 +1,1 @@
+his is a simple and responsive web application for counting vehicles, built with HTML, CSS, and JavaScript. It features a clean UI with animated buttons, a modern design, and supports incrementing, decrementing, and resetting the vehicle count. Ideal for demos or basic tracking purposes.
