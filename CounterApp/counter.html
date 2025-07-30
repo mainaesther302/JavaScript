@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vehicle Counting App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="counter.css" />
+</head>
+<body>
+  <div class="container glass animate-fade">
+    <h1 class="title animate-bounce">🚗 Vehicle Counter</h1>
+
+    <div class="counter-box glow">
+      <p class="label">Total Vehicles</p>
+      <h2 id="vehicleCount">0</h2>
+    </div>
+
+    <div class="buttons">
+      <button id="increaseBtn">➕ Add</button>
+      <button id="decreaseBtn">➖ Remove</button>
+      <button id="resetBtn" class="reset">🔄 Reset</button>
+    </div>
+  </div>
+
+  <script src="counter.js"></script>
+</body>
+</html>
